@@ -1,0 +1,26 @@
+POST http://127.0.0.1:5000/predict
+Content-Type: application/json
+
+
+{
+  "data": [
+    {
+      "age": 60,
+      "bmi": 36.005,
+      "children": 0,
+      "smoker": "no"
+    },
+    {
+      "age": 21,
+      "bmi": 21.89,
+      "children": 2,
+      "smoker": "yes"
+    },
+    {
+      "age": 24,
+      "bmi": 29.83,
+      "children": 0,
+      "smoker": "no"
+    }
+  ]
+}
